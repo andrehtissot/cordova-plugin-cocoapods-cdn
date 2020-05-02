@@ -1,0 +1,44 @@
+{
+    "version": "1.0.0",
+    "name": "cordova-plugin-cocoapods-cdn",
+    "cordova_name": "Cocoapods CDN source switcher",
+    "description": "When the environment supports, the cocoapods source is automatically set to the official CDN instead of the slow Github repository",
+    "license": "MIT",
+    "repo": "https://github.com/andrehtissot/cordova-plugin-cocoapods-cdn",
+    "issue": "https://github.com/andrehtissot/cordova-plugin-cocoapods-cdn/issues",
+    "author": "André Augusto Tissot",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andrehtissot/cordova-plugin-cocoapods-cdn"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "ios",
+        "cocoapod",
+        "cocoapods",
+        "pod",
+        "pods",
+        "cdn",
+        "cordova",
+        "plugin",
+        "cordova-ios"
+    ],
+    "platforms": [
+        "ios"
+    ],
+    "engines": {
+        "node": ">=10"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.2.11",
+        "chai": "^4.2.0",
+        "faker": "^4.1.0",
+        "jsonlint": "^1.6.3",
+        "mocha": "^7.1.2",
+        "mock-require": "^3.0.3",
+        "sinon": "^9.0.2"
+    }
+}

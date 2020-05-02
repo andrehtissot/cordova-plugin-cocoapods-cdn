@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-cocoapods-cdn" version="1.0.0">
+	<name>Cocoapods CDN source switcher</name>
+	<description>When the environment supports, the cocoapods source is automatically set to the official CDN instead of the slow Github repository</description>
+	<license>MIT</license>
+	<keywords>ios, cocoapod, cocoapods, pod, pods, cdn, cordova, plugin, cordova-ios</keywords>
+
+	<engines>
+		<engine name="cordova-ios" version=">=5.0.0" />
+	</engines>
+
+	<!-- CHANGES COCOAPODS SOURCE TO CDN -->
+	<hook src="scripts/main.js" type="before_plugin_install" />
+	<hook src="scripts/main.js" type="after_plugin_add" />
+</plugin>
